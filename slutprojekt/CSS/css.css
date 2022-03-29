@@ -1,0 +1,45 @@
+.header{
+    border: 10px double gold;
+    text-align:center;
+    background-color:red;
+  padding: 0px 400px 600px 400px; 
+  }
+  .inputs{
+     text-align:left;
+    line-height:3;
+    font-size:1.8rem;
+     background-color: white;
+    width:7%;
+   
+     height: 200px; 
+  
+      padding: 10px 10px 10px 5px; 
+  
+      border: 10px double gold; 
+  margin: 5px; 
+    
+    
+  }
+  .inputs1{
+   
+    text-align:left;
+    line-height:3;
+    font-size:1.8rem;
+     background-color: white;
+    width:7%;
+     height: 200px; 
+  
+      padding: 10px 18px 10px 0px; 
+  
+      border: 10px double gold; 
+  margin: 5px; 
+    
+  }
+  .p1{
+    display:flex;
+    justify-content:space-between;
+    flex-direction:row-reverse;
+  }
+  body{ 
+  background-color:green;
+    }
