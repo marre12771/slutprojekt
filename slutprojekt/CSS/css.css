@@ -2,44 +2,38 @@
     border: 10px double gold;
     text-align:center;
     background-color:red;
-  padding: 0px 400px 600px 400px; 
-  }
+  padding: 0px 300px 500px 300px; 
+  } 
   .inputs{
      text-align:left;
     line-height:3;
     font-size:1.8rem;
      background-color: white;
-    width:7%;
+    width:20%;
    
-     height: 200px; 
+     height: 250px; 
   
       padding: 10px 10px 10px 5px; 
   
       border: 10px double gold; 
-  margin: 5px; 
-    
-    
+  margin: 5px;   
   }
-  .inputs1{
-   
-    text-align:left;
-    line-height:3;
-    font-size:1.8rem;
-     background-color: white;
-    width:7%;
-     height: 200px; 
-  
-      padding: 10px 18px 10px 0px; 
-  
-      border: 10px double gold; 
-  margin: 5px; 
-    
+  .inputs{
+border-top:solid black;
   }
+  
+  .sub{
+    border-top:solid black;
+  }
+    
   .p1{
-    display:flex;
-    justify-content:space-between;
-    flex-direction:row-reverse;
+    display:grid;
+    height:100vh;
+    grid-template-columns:1fr 1fr 1fr ;
+    grid-template-rows:1fr 3fr 1fr;
   }
+   
   body{ 
   background-color:green;
+  margin:auto;
     }
