@@ -3,13 +3,19 @@
     text-align:center;
     background-color:red;
   padding: 0px 300px 500px 300px; 
+  grid-column:2/3 ;
   } 
+
+  .centerb{
+text-align:center;
+  }
+
   .inputs{
      text-align:left;
-    line-height:3;
+    line-height:5;
     font-size:1.8rem;
      background-color: white;
-    width:20%;
+    width:40%;
    
      height: 250px; 
   
@@ -17,23 +23,24 @@
   
       border: 10px double gold; 
   margin: 5px;   
-  }
-  .inputs{
-border-top:solid black;
-  }
   
+  }
   .sub{
-    border-top:solid black;
+    border:solid black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
   }
     
   .p1{
     display:grid;
     height:100vh;
-    grid-template-columns:1fr 1fr 1fr ;
-    grid-template-rows:1fr 3fr 1fr;
+    grid-template-columns:
+    repeat(3, 1fr); 
+    grid-template-rows:1fr 1fr 1fr ;
   }
    
   body{ 
-  background-color:green;
+  background-color:rgb(128, 77, 0);
   margin:auto;
     }
